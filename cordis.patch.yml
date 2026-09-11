@@ -9,4 +9,4 @@
 # to the browser as part of the `window.__DSH_BOOT__` graph.
 - insert:
     - id: easy-archive
-      name: 'easy-archive'
+      name: 'dsh-easy-archive'

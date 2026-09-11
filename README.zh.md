@@ -22,15 +22,16 @@
 从 DSH 插件市场安装(推荐):
 
 ```
-dsh plugin --profile web add github:bainianlaoyao/easy-archive
+dsh plugin --profile web add github:bainianlaoyao/easy-archive   # GitHub 分发
+dsh plugin --profile web add dsh-easy-archive                    # npm 分发(预构建安装免 allowBuilds)
 ```
 
 或手动加入 web profile 的 `package.json`:
 
 ```json
 {
-  "dependencies": { "easy-archive": "github:bainianlaoyao/easy-archive" },
-  "dsh": { "profile": { "bundles": [ "...", "easy-archive" ] } }
+  "dependencies": { "dsh-easy-archive": "github:bainianlaoyao/easy-archive" },
+  "dsh": { "profile": { "bundles": [ "...", "dsh-easy-archive" ] } }
 }
 ```
 

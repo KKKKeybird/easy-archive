@@ -31,15 +31,16 @@ row, never buried in a submenu.
 From the DSH plugin market (recommended):
 
 ```
-dsh plugin --profile web add github:bainianlaoyao/easy-archive
+dsh plugin --profile web add github:bainianlaoyao/easy-archive   # GitHub distribution
+dsh plugin --profile web add dsh-easy-archive                    # npm distribution (prebuilt; skips allowBuilds)
 ```
 
 …or add it manually to the web profile's `package.json`:
 
 ```json
 {
-  "dependencies": { "easy-archive": "github:bainianlaoyao/easy-archive" },
-  "dsh": { "profile": { "bundles": [ "...", "easy-archive" ] } }
+  "dependencies": { "dsh-easy-archive": "github:bainianlaoyao/easy-archive" },
+  "dsh": { "profile": { "bundles": [ "...", "dsh-easy-archive" ] } }
 }
 ```
 
