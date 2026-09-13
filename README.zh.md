@@ -62,6 +62,15 @@ node scripts/check.mjs  # (别名) 语法 + smoke
 - 显示标题与时间分桶完全相同的会话会被跳过(保守策略:绝不误归档)。
 - 卸载:移除依赖与 bundles 条目,`pnpm install`,重启 `dsh web`。
 
+## 相关插件
+
+同一作者的其它 dsh 插件，均已收录于 [dsh 插件市场](https://awesome-dsh-plugin.com/)：
+
+- [`dsh-codex-mode`](https://github.com/bainianlaoyao/dsh-codex-harness) —— 面向 GPT 系模型的 Codex 形状编码预设：`exec_command` / `write_stdin` / `apply_patch` / `view_image`、OpenAI Chat Completions 与 Responses 两条路由，外加图形化子代理类型。
+- [`dsh-llm-api-pool`](https://github.com/bainianlaoyao/dsh-llm-api-pool) —— 聚合多个 OpenAI 兼容 API key，按余额热切换。
+- [`dsh-session-robustness`](https://github.com/bainianlaoyao/dsh-session-robustness) —— 让长会话保持可恢复。
+- [`dsh-bash-on-windows`](https://github.com/bainianlaoyao/bash-on-windows) —— 让 Git Bash 成为 Windows 上唯一且名副其实的终端工具。
+
 ## 许可证
 
 MIT

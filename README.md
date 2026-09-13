@@ -79,6 +79,22 @@ node scripts/check.mjs  # (alias) syntax + smoke
 - Uninstall: remove the dependency and bundles entry, `pnpm install`,
   restart `dsh web`.
 
+## Related plugins
+
+Other dsh plugins by the same author, all listed in the
+[dsh plugin market](https://awesome-dsh-plugin.com/):
+
+- [`dsh-codex-mode`](https://github.com/bainianlaoyao/dsh-codex-harness) — a Codex-shaped
+  coding mode for GPT-family models: `exec_command` / `write_stdin` / `apply_patch` /
+  `view_image`, both OpenAI routes (Chat Completions and Responses), and graphical
+  subagent types.
+- [`dsh-llm-api-pool`](https://github.com/bainianlaoyao/dsh-llm-api-pool) — pool several
+  OpenAI-compatible API keys and hot-switch by remaining balance.
+- [`dsh-session-robustness`](https://github.com/bainianlaoyao/dsh-session-robustness) —
+  keep long sessions recoverable.
+- [`dsh-bash-on-windows`](https://github.com/bainianlaoyao/bash-on-windows) — make Git
+  Bash the only, honestly named terminal tool on Windows.
+
 ## License
 
 MIT
